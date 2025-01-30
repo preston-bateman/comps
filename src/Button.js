@@ -10,24 +10,23 @@ function Button({
     outline,
     rounded
 }) {
-    
 
-    return <button>{children}</button>
+    return <button >{ children }</button>
 }
 
 Button.propTypes = {
     checkVariation: ({ primary, secondary, success, warning, danger }) => {
-        const count = Number(!!primary)
-        + Number(!!secondary)
-        + Number(!!warning)
-        + Number(!!success)
-        + Number(!!Danger)
+        const count = 
+        Number(!!primary) +
+        Number(!!secondary) +
+        Number(!!warning) +
+        Number(!!success) +
+        Number(!!danger)
 
         if(count > 1){
             return new Error('You can only use one variation prop type.')
         }
-    }
-
+    },
 }
 
 export default Button
