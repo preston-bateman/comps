@@ -1,4 +1,5 @@
 import Button from "./Button";
+import { GoBell } from 'react-icons/go';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Button secondary outline>Much</Button>
       </div>
       <div>
-        <Button secondary rounded>Just Click Me</Button>
+        <Button primary rounded>Just Click Me</Button>
       </div>
     </div>
   );
