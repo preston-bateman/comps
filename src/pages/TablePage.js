@@ -2,6 +2,22 @@ import Table from "../components/Table";
 
 function TablePage() {
 
+    const config = [
+        {
+            label: "Name of Fruit",
+            render: (fruit) => fruit.name,
+        },
+        {
+            label: "Color",
+            render: (fruit) => <div className={`p-2 m-3 ${fruit.color}`} />,
+        },
+        {
+            label: "Score",
+            render: (fruit) => fruit.score,
+            sort: (a, b) => {}
+        },
+    ]
+
     const data = [
         { name: 'Orange', color: 'bg-orange-500', score: 5 },
         { name: 'Apple', color: 'bg-red-500', score: 3 },
@@ -11,7 +27,7 @@ function TablePage() {
 
     return (
         <div>
-            <Table data={data} />
+            <Table data={data} config={config} />
         </div>
     )
 }
