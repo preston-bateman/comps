@@ -33,4 +33,3 @@ function Table({ data, config, keyFn }) {
 
 export default Table
 
-//Remember to add the sort functionality to the table so that it is able to be sorted no matter what is added in.
