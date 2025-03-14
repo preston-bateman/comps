@@ -24,3 +24,5 @@ function Link({ to, children, className, activeClassName }){
 }
 
 export default Link;
+
+const areadiv = 0
