@@ -26,3 +26,6 @@ function ButtonPage () {
 
 
 export default ButtonPage;
+
+
+//fixes that have been put in may be unstable if using typescript
