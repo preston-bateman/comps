@@ -5,7 +5,7 @@ import { GoPackage } from 'react-icons/go';
 function ButtonPage () {
   return (
     <div>
-      <div>
+      <div> 
         <Button success rounded outline><GoPackage />Click Me</Button>
       </div>
       <div>
@@ -28,4 +28,4 @@ function ButtonPage () {
 export default ButtonPage;
 
 
-//fixes that have been put in may be unstable if using typescript
+//fixes that have been put in
