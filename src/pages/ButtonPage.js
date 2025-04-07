@@ -19,6 +19,8 @@ function ButtonPage () {
       </div>
       <div>
         <Button primary rounded><GoPackage />Just Click Me</Button>
+
+        
       </div>
     </div>
   );
@@ -26,6 +28,3 @@ function ButtonPage () {
 
 
 export default ButtonPage;
-
-
-//fixes that have been put in
