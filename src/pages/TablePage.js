@@ -14,7 +14,7 @@ function TablePage() {
         {
             label: "Score",
             render: (fruit) => fruit.score,
-            sort: (a, b) => {}
+            header: () => <th className="bg-red-500">Score</th>
         },
     ]
 
