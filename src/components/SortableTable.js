@@ -2,6 +2,9 @@ import { useState } from "react"
 import Table from "./Table"
 
 function SortableTable (props) {
+    const [sortOrder, setSortOrder] = useState(null)
+    const [sortBy, setSortBy] = useState(null)
+
     const { config } = props
 
     const handleClick = (label) => {
