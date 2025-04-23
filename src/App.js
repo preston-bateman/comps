@@ -33,4 +33,3 @@ function App() {
 
 export default App
 
-//Need to deploy this for the portfolio

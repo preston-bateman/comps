@@ -91,4 +91,3 @@ function getIcons(label, sortBy, sortOrder) {
 
 export default SortableTable
 
-//added in debug to console
