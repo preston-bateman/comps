@@ -6,3 +6,5 @@ function useNavigation() {
 }
 
 export default useNavigation
+
+//this is a searchable note for a placeholder for navigation
