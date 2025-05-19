@@ -6,6 +6,7 @@ function Sidebar(){
         {label: 'Accordion', path: '/accordion'},
         {label: 'Buttons', path: '/buttons'},
         {label: 'Modal', path: '/modal'},
+        {label: 'Counter', path: '/counter'},
         {label: 'Table', path: '/table'}
     ]
 
