@@ -30,6 +30,7 @@ function SortableTable (props) {
     })
 
     
+    
 
     return (
         <Table {...props} data={sortedData} config={updatedConfig} />
